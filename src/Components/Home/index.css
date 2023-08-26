@@ -1,0 +1,16 @@
+.hero-section {
+  overflow: hidden;
+  height: 500px;
+}
+.avatar {
+  vertical-align: middle;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+@media (min-width: 280px) {
+  .hero-section {
+    height: auto;
+  }
+}
